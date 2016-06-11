@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import "normalize";
+
+body {
+  background: #fff;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.cover-image {
+  background-image: url(/images/cover.jpg);
+  height: 500px;
+}
+
+.cover-image h1 {
+  float: right;
+}
+
+.country-select {
+  background: #000;
+  padding: 15px 0 40px 0;
+}
+
+.main {
+  font-size: 1.5em;
+  background: #fff;
+  margin: 50px 0 40px 0;
+}
+
+.main .main__avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0 50px 0;
+}
