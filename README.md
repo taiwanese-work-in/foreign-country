@@ -34,6 +34,7 @@ middleman deploy
 ### Git branching & pull request policy
 
 * 使用 [GitHub flow](https://guides.github.com/introduction/flow/)-改 (merge 後才 deploy production)。
+* Code Review 後覺得 ok 的話請給 thumbs up，直到有信心上 production 沒問題、code 可維護性沒問題時，由 author 自行 merge 即可。
 * PR description 請使用 [此樣版](/.github/PULL_REQUEST_TEMPLATE.md)。
 * PR description 可以用中文寫，但 git commit message 請只使用英文。
 * 可以的話，建議一個 PR 只含一個 commit，其 commit message == PR description (這個情況下請用英文)。
