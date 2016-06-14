@@ -15,6 +15,9 @@ page '/*.txt', layout: false
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
+data.countries.each do |slug, country|
+  proxy "/#{slug}/index.html", "/country_template.html", :locals => { country: country }
+end
 
 # General configuration
 
@@ -22,6 +25,9 @@ page '/*.txt', layout: false
 configure :development do
   activate :livereload
 end
+
+# Pretty URLs (Directory Indexes)
+activate :directory_indexes
 
 ###
 # Helpers
