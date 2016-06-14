@@ -1,4 +1,4 @@
-# Taiwanese Work In 共同知識庫 & 站務 & Middleman 網站
+# Taiwanese Work In 主站
 
 ## 共同知識庫
 
@@ -34,7 +34,7 @@ middleman deploy
 ### Git branching & pull request policy
 
 * 使用 [GitHub flow](https://guides.github.com/introduction/flow/)-改 (merge 後才 deploy production)。
-* Code Review 後覺得 ok 的話請給 thumbs up，直到有信心上 production 沒問題、code 可維護性沒問題時，由 author 自行 merge 即可。
-* PR description 請使用 [此樣版](/.github/PULL_REQUEST_TEMPLATE.md)。
-* PR description 可以用中文寫，但 git commit message 請只使用英文。
-* 可以的話，建議一個 PR 只含一個 commit，其 commit message == PR description (這個情況下請用英文)。
+* Code Review 後若無問題請給 `LGTM` 或 :+1: ，視情況由任一位 collaborator (可以是 author 本人) 進行 merge。考慮情況如緊急度、修改的複雜度、feedback 狀況等。
+* PR description 請使用 [此樣版](/.github/PULL_REQUEST_TEMPLATE.md)，可以使用中文。
+* commit message 的 subject line 推薦使用英文並 follow [此慣例](http://chris.beams.io/posts/git-commit/)，但不強制。
+* 可以的話，建議一個 PR 只含一個功能明確的 commit，其 commit message == PR description。
