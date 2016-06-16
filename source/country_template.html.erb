@@ -15,7 +15,7 @@
       <div class="jumbotron">
         <h1>到<%= country.name_zh %>工作</h1>
         <p><%= country.intro %></p>
-        <p><a class="btn btn-primary btn-lg" href="<%= country.url %>" role="button">前往<%= country.name_zh %>工作知識庫</a></p>
+        <p><a class="btn btn-primary btn-lg" href="<%= country.wiki_url %>" role="button">前往<%= country.name_zh %>工作知識庫</a></p>
       </div>
     </div>
 
@@ -24,7 +24,7 @@
 
       <h4>加入貢獻</h4>
       <p>
-        歡迎一同編輯知識庫，目前採用 GitHub wiki 系統，部分國家已開放公開任何人編輯；若想提供片段資料但不想整理、編輯，也歡迎開 <a href="https://github.com/taiwanese-work-in/singapore/issues">GitHub issue</a> 提供。
+        歡迎一同編輯知識庫，目前採用 GitHub wiki 系統，部分國家已開放公開任何人編輯；若想提供片段資料但不想整理、編輯，也歡迎開 <a href="<%= country.report_url %>">GitHub issue</a> 提供。
       </p>
       <p>若您想要建立尚未列出的國家的知識庫，也歡迎與我們聯絡。</p>
 
