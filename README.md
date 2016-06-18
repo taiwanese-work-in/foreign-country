@@ -38,3 +38,7 @@ middleman deploy
 * PR description 請使用 [此樣版](/.github/PULL_REQUEST_TEMPLATE.md)，可以使用中文。
 * commit message 的 subject line 推薦使用英文並 follow [此慣例](http://chris.beams.io/posts/git-commit/)，但不強制。
 * 可以的話，建議一個 PR 只含一個功能明確的 commit，其 commit message == PR description。
+
+### License
+
+The design of [favicon.ico](source/favicon.ico) is from [FontAwesome](https://fontawesome.io). We use the PNG version created by encharm/Font-Awesome-SVG-PNG[](https://github.com/encharm/Font-Awesome-SVG-PNG), which is licensed under SIL OFL 1.1.
